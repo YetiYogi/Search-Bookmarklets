@@ -25,13 +25,7 @@ For looking up Synonyms on thesaurus.com.
 javascript:(function(){var word=prompt(%22Enter the word%22,%22example%22);if(word!=null){window.open('http://thesaurus.com/browse/'+word+'?s=t','_blank');}})();
 ```
 
-For performing a Domain Whois check on Whois.sc by inputting the domain name:
+For performing a Domain Whois check on Who.is by inputting the domain name:
 ```
 javascript:(function(){var dname=prompt(%22Enter domain name%22,%22example.com%22);if(dname!=null){window.open('http://who.is/whois/'+dname,'_blank');}})();
-```
-
-For performing a Domain Whois check on Whois.sc for the currently open website:
-
-```
-javascript:(function(){var dname=location.host+'';dname=dname.split('.');dname.shift();dname=dname.join('.');if(dname!=null){window.open('http://who.is/whois/'+dname,'_blank');}})();
 ```
